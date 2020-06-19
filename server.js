@@ -115,5 +115,5 @@ bot.on("message", message => {
 
 /* Connexion */
 
-bot.login(./config.json);
+bot.login('token');
  

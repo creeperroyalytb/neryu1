@@ -12,7 +12,6 @@ app.get("/", (request, response) => {
   console.log(Date.now() + " Ping Received");
   response.sendStatus(200);
 });
-app.listen(process.env.PORT);
 var botOwnerID = "357455162111033345";
 var unusedWords = ["est", "un", "de", "le", "c"];
 
